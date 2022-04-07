@@ -29,7 +29,11 @@ const App = () => {
         />
       </div>
 
-      <Preview padding={state3} fontSize={state2} content={state1} />
+      <Preview
+        padding={state3 + "px"}
+        fontSize={state2 + "px"}
+        content={state1}
+      />
     </div>
   );
 };
